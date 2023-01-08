@@ -1,2 +1,3 @@
 # backend-bananenbrot
-A phenomenal Application made by the rueben-und-kraut© AG
+A phenomenal Application.
+Made by the famous Rueben Und Kraut AG
