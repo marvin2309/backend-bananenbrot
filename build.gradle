@@ -5,12 +5,14 @@ plugins {
 }
 
 group = 'com.marvin2309'
-version = '0.0.1-SNAPSHOT'
+version = ''
 sourceCompatibility = '17'
 
 repositories {
 	mavenCentral()
 }
+
+
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -20,4 +22,8 @@ dependencies {
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+jar {
+	enabled = false
 }
