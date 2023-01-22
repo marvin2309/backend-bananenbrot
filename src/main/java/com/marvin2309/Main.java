@@ -14,6 +14,6 @@ public class Main {
     }
     @GetMapping("/greet")
     public String greet() {
-        return "greetings world";
+        return "greetings";
     }
 }
