@@ -12,8 +12,8 @@ public class Main {
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
     }
-    @GetMapping("/greet")
+    @GetMapping("/hello")
     public String greet() {
-        return "greetings world!";
+        return "Hello World!";
     }
 }
